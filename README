@@ -1,0 +1,13 @@
+FamilyTree is a commandline application that takes a CSV input file with a header at line 0 representing a serialize acyclic tree. 
+
+The member nodes in the CSV file are in no order but the root node has its parent's name as NULL. 
+
+The program takes in this file and returns a sorted list of the member nodes at the depth of the tree specific on the command line.
+
+Ex:
+./familyTree test.csv 2
+Aldgate
+Baker Street
+Barbican
+Chiswick Park
+Victoria
