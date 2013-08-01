@@ -1,4 +1,4 @@
-FamilyTree is a commandline application that takes a CSV input file with a header at line 0 representing a serialize acyclic tree. 
+FamilyTree is a commandline application that takes a CSV input file with a header at line 0 representing a serialized acyclic tree. 
 
 The member nodes in the CSV file are in no order but the root node has its parent's name as NULL. 
 
