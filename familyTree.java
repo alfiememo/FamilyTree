@@ -70,8 +70,7 @@ public class familyTree{
 			ArrayList<Node> children = new ArrayList<Node>();
 			for(Node node : this.queue){
 				if(node.parent.equals(parent)){ 
-					children.add(node);
-					//this.queue.remove(node);		
+					children.add(node);		
 				}
 			}
 			parents.remove(parent);
